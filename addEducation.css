@@ -1,0 +1,17 @@
+div.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container {
+  width: 60vw;
+}
+
+.container h1 {
+  color: #3577f3;
+}
+/*# sourceMappingURL=addEducation.css.map */

@@ -1,0 +1,16 @@
+div.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+.container {
+	width: 60vw;
+	i {
+		font-size: 1.5em;
+	}
+	h1 {
+		color: rgb(21, 122, 255);
+	}
+	h1 + p {
+		font-weight: bold;
+	}
+}

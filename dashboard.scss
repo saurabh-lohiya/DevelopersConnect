@@ -1,0 +1,33 @@
+div.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+.container {
+	width: 750px;
+	display: flex;
+	button.btn {
+		color: whitesmoke;
+		width: 5rem;
+		padding: 0.2em 0.4em;
+		background-color: #f82112;
+	}
+	table {
+		font-size: 0.85em;
+	}
+
+	flex-direction: column;
+	h2 {
+		margin-top: 20px;
+	}
+	span {
+		margin-left: 5px;
+		padding: 5px;
+		background-color: rgb(233, 230, 230);
+		i {
+			color: #1475f5;
+		}
+	}
+	h4 {
+		margin-top: 10px;
+	}
+}

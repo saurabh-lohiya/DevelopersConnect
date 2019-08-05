@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAA,gBAAgB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ;CACzB;;AACD,AAAA,UAAU,CAAC;EAIV,KAAK,EAAE,IAAI;CACX;;AALD,AACC,UADS,CACT,EAAE,CAAC;EACF,KAAK,EAAE,OAAiB;CACxB",
+    "sources": [
+        "addEducation.scss"
+    ],
+    "names": [],
+    "file": "addEducation.css"
+}

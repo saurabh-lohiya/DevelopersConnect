@@ -1,0 +1,23 @@
+li = $('nav div ul li');
+developers = $('nav div ul li:nth-child(1)');
+register = $('nav div ul li:nth-child(2)');
+login = $('nav div ul li:nth-child(3)');
+
+dashboard = $('a.navbar-brand');
+
+dashboard.on('click', arguments => {
+	window.location.href = '../dashboard/dashboard.html';
+});
+function signIn() {
+	window.location.href = '../signIn/signIn.html';
+}
+function signUp(param) {
+	window.location.href = '../signUp/signUp.html';
+}
+function Developers() {
+	window.location.href = '../developers/developers.html';
+}
+
+developers.on('click', Developers);
+register.on('click', signUp);
+login.on('click', signIn);

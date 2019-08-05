@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Title</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="editProfile.css" />
+	<script src="https://kit.fontawesome.com/9b6215e94a.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#"><i class="fas fa-code"></i> DevConnector</a>
+		<div class="collapse navbar-collapse" id="navbarColor02">
+			<ul class="navbar-nav ">
+				<li class="nav-item ">
+					<a class="nav-link" href="#">Developers </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Register</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Login</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<h1>Create Your Profile</h1>
+		<p><i class="fab fa-connectdevelop"></i> Let's get some information to make your profile Stand Out</p>
+		<p>.-required field</p>
+		<form action="#">
+			<div class="input-group mb-3">
+				<select class="custom-select" id="inputGroupSelect01">
+					<option disabled selected>Select Professional Status</option>
+					<option value="1">Student</option>
+					<option value="2">Freelancer</option>
+					<option value="3">Drop-Out</option>
+				</select>
+				<small class="w-100">Give us an idea about where you are at in your career</small>
+			</div>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Company" id="Company" name="Company" />
+				<small class="w-100">Could be your own company or some company you work for</small>
+			</div>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Website" id="Website" name="Website" />
+				<small class="w-100">Could be Your own or the company you work for</small>
+			</div>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Location" id="Location" name="Location" />
+				<small class="w-100">City & State(suggested: Mumbai, Maharashtra)</small>
+			</div>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="*Skills" id="Skills" name="Skills" />
+				<small class="w-100">
+					Please use comma separated values(HTML5, CSS3, Javascript, React, Typescript, etc)
+				</small>
+			</div>
+			<div class="input-group mb-3">
+				<input type="text" class="form-control" placeholder="Github Username" id="Github" name="Github" />
+				<small class="w-100">
+					If you want to showcase your latest repos
+				</small>
+			</div>
+			<div class="input-group mb-3">
+				<textarea class="form-control" rows="2" id="Bio" placeholder="A short bio of yourself"></textarea>
+				<small class="w-100">
+					Tell us about yourself
+				</small>
+			</div>
+			<span style="background-color: rgb(224, 224, 224); ">Add Social Network Links</span>
+			<span class="ml-3">Optional</span><br /><br />
+			<div class="URL">
+				<div class="input-group mb-3">
+					<i class="fab fa-twitter-square"></i>
+					<input type="text" class="form-control" placeholder="Twitter URL" id="Twitter" name="Twitter" />
+				</div>
+				<div class="input-group mb-3">
+					<i class="fab fa-facebook"></i>
+					<input type="text" class="form-control" placeholder="Facebook URL" id="Facebook" name="Facebook" />
+				</div>
+				<div class="input-group mb-3">
+					<i class="fab fa-youtube"></i>
+					<input type="text" class="form-control" placeholder="Youtube URL" id="Youtube" name="Youtube" />
+				</div>
+				<div class="input-group mb-3">
+					<i class="fab fa-linkedin"></i>
+					<input type="text" class="form-control" placeholder="LinkedIn URL" id="LinkedIn" name="LinkedIn" />
+				</div>
+				<div class="input-group mb-3">
+					<i class="fab fa-instagram"></i>
+					<input type="text" class="form-control" placeholder="Instagram URL" id="Instagram"
+						name="Instagram" />
+				</div>
+			</div>
+			<button class="btn btn-primary">Submit</button>
+			<button class="btn btn-light ml-2"><a href="../dashboard/dashboard.html">Go Back</a> </button>
+		</form>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="editProfile.js"></script>
+</body>
+
+</html>

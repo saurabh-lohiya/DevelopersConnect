@@ -1,0 +1,86 @@
+div.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container {
+  width: 60%;
+}
+
+.container i {
+  font-size: 1.5em;
+}
+
+.container h1 {
+  color: rgba(0, 113, 219, 0.89);
+}
+
+.container h1 + p {
+  font-weight: bold;
+}
+
+.container span {
+  padding: 0.3em 0.9em;
+}
+
+.container div.URL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.container div.URL div.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: row;
+      flex-basis: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container div.URL i {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 2em;
+}
+
+.container div.URL input {
+  -webkit-box-flex: 18;
+      -ms-flex: 18;
+          flex: 18;
+}
+
+.container div.URL div.input-group:nth-child(1) i {
+  color: #00a2ff;
+}
+
+.container div.URL div.input-group:nth-child(2) i {
+  color: #0044ff;
+}
+
+.container div.URL div.input-group:nth-child(3) i {
+  color: #ff2b36;
+}
+
+.container div.URL div.input-group:nth-child(4) i {
+  color: #006eff;
+}
+
+.container div.URL div.input-group:nth-child(5) i {
+  color: #ff0080;
+}
+/*# sourceMappingURL=editProfile.css.map */

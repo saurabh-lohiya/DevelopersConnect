@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Title</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="dashboard.css" />
+	<script src="https://kit.fontawesome.com/9b6215e94a.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#"><i class="fas fa-code"></i> DevConnector</a>
+		<div class="collapse navbar-collapse" id="navbarColor02">
+			<ul class="navbar-nav ">
+				<li class="nav-item ">
+					<a class="nav-link" href="#">Developers </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Register</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Login</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<h2>Dashboard</h2>
+		<h4 class="mt-1"><i class="fas fa-user-alt"></i> Welcome Saurabh Lohiya</h4>
+		<div class="mt-2">
+			<span><i class="fas fa-user-circle"></i> Edit Profile</span>
+			<span><i class="fas fa-info"></i> Add Experience</span>
+			<span><i class="fas fa-graduation-cap"></i> Add Education</span>
+		</div>
+		<h4>Experience Credentials</h4>
+		<table class="table">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">Company</th>
+					<th scope="col">Title</th>
+					<th scope="col">Years</th>
+					<th scope="col"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td scope="row">Netflix</td>
+					<td>Front-End Developer</td>
+					<td>Oct 2015 - Jan 2017</td>
+					<td><button class="btn" id="delete1">Delete</button></td>
+				</tr>
+				<tr>
+					<td scope="row">Ola</td>
+					<td>Back-End Developer</td>
+					<td>March 2017 - July 2018</td>
+					<td><button class="btn">Delete</button></td>
+				</tr>
+				<tr>
+					<td scope="row">Uber</td>
+					<td>Full-Stack Developer</td>
+					<td>Sept 2018 - Current</td>
+					<td><button class="btn">Delete</button></td>
+				</tr>
+			</tbody>
+		</table>
+		<h4>Education Credentials</h4>
+		<table class="table">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">Institution</th>
+					<th scope="col">Program</th>
+					<th scope="col">Years</th>
+					<th scope="col"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Pratishtan Mahavidyalaya</th>
+					<td>Junior College(CS)</td>
+					<td>Aug 2014 - <br />Apr 2016</td>
+					<td><button class="btn">Delete</button></td>
+				</tr>
+				<tr>
+					<th scope="row">Dwarkadas J.Sanghvi College of Engineering</th>
+					<td>Computer Engineering</td>
+					<td>Aug 2016 - Present</td>
+					<td><button class="btn">Delete</button></td>
+				</tr>
+			</tbody>
+		</table>
+		<button class="btn" style="width: 10rem;">Delete My Account</button>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="dashboard.js"></script>
+</body>
+
+</html>

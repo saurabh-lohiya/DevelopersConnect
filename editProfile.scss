@@ -1,0 +1,61 @@
+div.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+.container {
+	i {
+		font-size: 1.5em;
+	}
+	width: 60%;
+	h1 {
+		color: rgba(0, 113, 219, 0.89);
+	}
+	h1 + p {
+		font-weight: bold;
+	}
+	span {
+		padding: 0.3em 0.9em;
+	}
+	div.URL {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		div.input-group {
+			display: flex;
+			flex-basis: row;
+			justify-content: flex-start;
+		}
+		i {
+			flex: 1;
+			font-size: 2em;
+		}
+		input {
+			flex: 18;
+		}
+		div.input-group:nth-child(1) {
+			i {
+				color: rgb(0, 162, 255);
+			}
+		}
+		div.input-group:nth-child(2) {
+			i {
+				color: rgb(0, 68, 255);
+			}
+		}
+		div.input-group:nth-child(3) {
+			i {
+				color: rgb(255, 43, 54);
+			}
+		}
+		div.input-group:nth-child(4) {
+			i {
+				color: rgb(0, 110, 255);
+			}
+		}
+		div.input-group:nth-child(5) {
+			i {
+				color: rgb(255, 0, 128);
+			}
+		}
+	}
+}

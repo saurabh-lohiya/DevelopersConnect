@@ -1,0 +1,40 @@
+@mixin flex() {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+@mixin flexD($dir) {
+	flex-direction: $dir;
+}
+nav {
+	border-bottom: 2px solid rgb(54, 129, 228);
+	div.navbar-collapse {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+.flex {
+	@include flex();
+	@include flexD(column);
+	height: 90.5vh;
+	width: 100vw;
+	font-size: 1.2em;
+	background: url(code1.jpg);
+	background-size: cover;
+	color: black;
+	text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #ff18ff, 0 0 5px #49ff18, 0 0 5px #49ff18,
+		0 0 5px #49ff18, 0 0 5px #49ff18;
+	button .btn.bgprimary,
+	.btn {
+		color: white;
+	}
+	.btn {
+		background: purple;
+	}
+	.flexC {
+		@include flexD(column);
+	}
+	.flexR {
+		@include flexD(row);
+	}
+}

@@ -1,0 +1,24 @@
+div.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@mixin flexcenter($dir1, $dir2) {
+	display: flex;
+	justify-content: center;
+	flex-direction: $dir1;
+	text-align: $dir2;
+}
+.container {
+	@include flexcenter(row, left);
+	form {
+		width: 700px;
+		small {
+			color: rgb(255, 1, 1);
+		}
+	}
+
+	h1 {
+		color: rgb(16, 107, 211);
+	}
+}
